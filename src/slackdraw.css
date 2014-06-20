@@ -1,0 +1,33 @@
+#slack_draw_link .file_menu_icon.draw {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAcCAYAAAD2izi6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAUJSURBVGiB1ZpdbBRVFMd/21bawEqpijaRNzQhfrWlIkUxM40zjEo09aMJCdEHjYm+TIpgUJ9M1AeJCTqmVWv84IHIgxA0ig4zoTNKVBIEIWoao0kNREuigArUqrg+3Jnd2+nMdtqZrfX/tHvvueee/e39mnOnUCqVkOW4Xh2gAMuBpUAdM9fvwCFgv66pxyL9LAFWAnt0TR2biXPFtlYANwDLgAsyxDkOHAE+9Q1zONJHM7AG2Ocb5i/RhgUZoON6S4E3gZszBBOno7qmtkn9PAAMAvXAj8AtuqYOJzWOSrGti4B+YF3OcZ4FFvmG+XfQz2rgA2AhMAbc7RvmR3KDMkDH9RYDXwOLpfrjwPkMATUB/wB36Zp6IOjnfuAtoCDZjQLdaSAqttUAfA50SsUngD8yxNkALAAe8g3znaCfLsABipLdONAjQ2yQKgeowHsN6Nc19UiGoJL0FXAaaJHKWoEhx/XSQNxMBd4e4HnfMIfyD5MRxABaJpU1ArsV2ypDLJRKJRzXm49Yr+oQ61XeUxjH9dYDF+qa+orjessBl4kQAQ7qmrqimh/Ftr4FrgR+Bpb4hjmeZ5zBtF3rG+YTim21AkNMhAhwCrjcN8yxcINoo7JZDOQZEJThbQMGHNd7RNfUQ4AWBCKr3XG9hUl+FNtaBFwRfH2jRvA+BB5XbGurb5ijQDcQnRUtwFVQgXaZVHk4z6AkeH8h1pD+KhC365r6WxV3rVTWzlzjlOA1ITaTvioQD/uG+QVkO6JMKQneKWAV8CUCQBxEG3i4lvEkSYI3D7gH2BFUxUEcBm4P29YMYATeGmAT0BVURyHeBPTompplJ52RIvB6gauBByWTKMTu4DMwcRfOTRK80wh4G4H1EbMQ4k+6pu6uRRxTKQbeNcCzMaZ9im2N+ob5XLQi9xGYEl6oIWBv3jGkUQy8a4mHB2LabouryBWgBO9XwAAeJRnePuAOXVPP5RlDGsXAuw54JsF8mMi0lZUbwBh4G/h/wGsDnk4wrwoPcloDJXjnEfD6mNvwigh4HcBTCeZTwoMcAErw6hEAXwauTzCfK/BALC+rEsxTwYOMUzgy8o4hpsVch/d9UJwZHmQAGIHXC9wIfJdgPlfgbQDagf0J5tOCB9lG4EtACejVNfU9XVOPIw6aUYhleI7rNQRps9nUFgS8jb5hvuAb5hngNiZDnAAvSCRMqSwA64CTwMeO6xUBAog9iBwgTIQ3D3gXcfabTYW/cWeQXSaAeCfixACT4W0FRhTbmp/W+Ux1KeJR7X0Ax/WagdcDv9Fp+yTiGbIY42c2NAL8AOWk7CDQzGR46xCniEbEml5VeZ0Di47rdSISAiuJX/NSTYkaq16xrXbgbeBe4te8acWZ17NwJ3Aw+PyfbRgpVKSSBpv2hhGnEOAJqayDyQnEOO1E3CPIOglsSoDXEdPXdDWK2LgKgb8d1c0Bca8xEikbBzYnwAvjPIfI0lfVrKT0g+kdjtBXdU2dcd6vlil9xbYuRtyDNAEHfMPsmqKJWAODEbMrKFvtuN6g43ptyc3SyXG9Rsf17qOSySgB2zO6DX1dAuxSbKs7oz8U26pTbGstgkFTpJ+qqvW1ZgviTjXUi7qm9mXwV6trzQWIPyTUXuBW3zBLCfZlzdbF+p+Ih/YtuqZm+UOAml6sg3iWf8w3zLNpjAs1frXjDOKViU90TR3J4CdWOb/a8Q3wmW+YR6fT8F/82DSZP9iUrAAAAABJRU5ErkJggg==');
+  background-position: left top;
+}
+
+#slack_draw_item.highlighted .file_menu_icon {
+  background-position: 105% top;
+}
+
+#slack_draw_sketch {
+  border: 1px solid #ccc;
+  padding: 1px;
+  margin: 0 auto;
+}
+
+#slack_draw_footer {
+  text-align: right;
+}
+
+#slack_draw_share:active,
+#slack_draw_share:visited,
+#slack_draw_share {
+  color: #000;
+}
+
+#slack_draw_title,
+#slack_draw_comment {
+  width: 250px;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 1px;
+  margin-right: 1px;
+}
