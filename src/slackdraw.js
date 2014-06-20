@@ -21,12 +21,16 @@ $(function() {
   // Get the active conversation
   var getCurrentConversation = function() {
     var $channel = $('#channel-list .active'),
-        $member  = $('#im-list .active');
+        $member  = $('#im-list .active'),
+        $group   = $('#group-list .active');
     if ($channel.length) {
       return $channel.attr('class').replace(/.*channel_([^ ]+).*/, '$1');
     }
     else if ($member.length) {
       return $member.attr('class').replace(/.*member_([^ ]+).*/, '$1');
+    }
+    else if ($group.length) {
+      return $group.attr('class').replace(/.*group_([^ ]+).*/, '$1');
     }
     return null;
   };
@@ -56,7 +60,11 @@ $(function() {
             contentType: false,
           }).done(function(response){
             if (!response || !response.ok) {
-              alert('Could not upload your drawing!');
+              var error = 'Unknown error';
+              if (response && response.error) {
+                error = response.error;
+              }
+              alert('Could not upload your drawing! Reason: ' + error);
             }
             $.modal.close();
           });
@@ -68,7 +76,7 @@ $(function() {
   // Watch when the upload menu is displayed
   $(document).bind('DOMNodeInserted', function(e) {
     var $element = $(e.target);
-    if ($element.is('#menu')) {
+    if ($element.is('#menu') && $('.file_menu_item').length) {
       
       // Create a new item for the upload menu
       var $item = $('<li data-which="draw" class="file_menu_item" id="slack_draw_item"></li>'),
