@@ -3,7 +3,7 @@ Slack Draw - Chrome Extension
 
 A Google Chrome extension to draw on Slack and share the drawings with the team.
 
-Check [this short video](http://ca.ios.ba/files/slackdraw.ogv) to see how it works!
+Check [this short video](http://ca.ios.ba/files/meedan/slackdraw.ogv) to see how it works!
 
 The initial idea was to work just as a proof-of-concept about generating a bitmap from a canvas
 element and sharing across the network. Check section "TODO" to see what cool things we can do
