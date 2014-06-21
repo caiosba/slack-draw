@@ -19,6 +19,8 @@ to improve this extension even more!
 
 4. The extension will autoupdate via Github but you can click "Update Extensions Now" to force a check/update
 
+Or: You can also install from [Google Chrome App Store](https://chrome.google.com/webstore/detail/slack-draw/koafpkkggpelmnganfmkabbacefhkcgj).
+
 5. Go to the options page of the extension and put your Slack token
 
 5. Reload Slack page
