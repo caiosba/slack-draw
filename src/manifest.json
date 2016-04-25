@@ -14,7 +14,6 @@
    "options_page": "options.html",
    "manifest_version": 2,
    "name": "Slack Draw",
-   "update_url": "https://raw.github.com/caiosba/slackdraw/master/update_manifest.xml",
    "permissions": [ "activeTab", "storage" ],
-   "version": "0.0.58"
+   "version": "0.0.61"
 }
